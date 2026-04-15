@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/2-form-QzJ3KGQx.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-WJ8luGNV.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="nav-logo" href="./index.html" aria-label="Site logo">
+        <svg class="nav-logo-icon" width="100" height="30">
+          <use href="/goit-js-hw-09/assets/sprite-E8vg0sBb.svg#logo"></use>
+        </svg>
+      </a>
+      <!-- <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        </li>
+      </ul> -->
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <div class="container">
+        <a class="back-link" href="./index.html">Go back</a>
+        <form class="feedback-form" autocomplete="off">
+          <label class="feedback-form-label">
+            Email
+            <input
+              class="feedback-form-input"
+              type="email"
+              name="email"
+              autofocus
+            />
+          </label>
+          <label class="feedback-form-label">
+            Message
+            <textarea
+              class="feedback-form-input"
+              name="message"
+              rows="8"
+            ></textarea>
+          </label>
+          <button class="feedback-form-btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+
+  </body>
+</html>
